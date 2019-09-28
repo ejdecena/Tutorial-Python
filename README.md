@@ -1,7 +1,5 @@
-<img align = "center" src="imagenes/python_logo.jpeg"/>
-
 <div align = "center">
-        <img src = "imagenes/python_logo.jpeg" />
+    <img src = "imagenes/python_logo.jpeg" />
 </div>
 
 # Tutorial Python.
@@ -124,7 +122,7 @@ El libro enseña conceptos bastante populares en la actualidad, como el uso de l
 
 ### 5.2 Learning Python.
 
-[*Learning Python*](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730/ref=pd_lpo_sbs_14_t_2?_encoding=UTF8&psc=1&refRID=JN73FSJC7091MKHXNN8Y) es uno de los libros más populares, dado que es el resumen del curso de entrenamiento en *Python* de su autor, Mark Lutz. Es un libro que mejora constantemente, presentando una quinta edición bastante robusta que introduce conceptos y buenas prácticas.
+[*Learning Python*](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730) es uno de los libros más populares, dado que es el resumen del curso de entrenamiento en *Python* de su autor, Mark Lutz. Es un libro que mejora constantemente, presentando una quinta edición bastante robusta que introduce conceptos y buenas prácticas.
 
 Tiene muchas bondades, entre ellas desafíos que permiten escribir código de forma rápida, eficiente y de alta calidad. Está indicado para personas con pocos conocimientos, aunque obviamente es útil también para programadores con mayor experiencia.
 
@@ -134,7 +132,7 @@ De primera mano permite explorar los tipos de objeto por defecto que vienen con 
 
 ### 5.3 Fluent Python.
 
-[*Fluent Python*](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/ref=sr_1_1?ie=UTF8&qid=1499089735&sr=8-1&keywords=Fluent+Python%3A+Clear%2C+Concise%2C+and+Effective+Programming) es un libro distinto, está diseñado para volverse productivo en el desarrollo con *Python* de forma rápida, dado que es un libro “hands-on” que básicamente prioriza las actividades a la teoría.
+[*Fluent Python*](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008) es un libro distinto, está diseñado para volverse productivo en el desarrollo con *Python* de forma rápida, dado que es un libro “hands-on” que básicamente prioriza las actividades a la teoría.
 
 Este libro se concentra en aspectos importantes como modelos y estructuras de datos, funciones y flujos de control. Además tiene una sección muy interesante relacionada a la metaprogramación, un concepto más avanzado pero inherente a grandes proyectos.
 
@@ -150,7 +148,7 @@ El libro tiene niveles iniciales con temas elementales (como el primer Hola mund
 
 ### 5.5 Python Cookbook.
 
-[*Python Cookbook*](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377/ref=sr_1_4?s=books&ie=UTF8&qid=1520398239&sr=1-4&keywords=python+cookbook) es uno de los libros más amenos para el aprendizaje de *Python*. Se puede encontrar las indicaciones para el desarrollo de programas a manera de recetas. Hay una serie de temas interesantes para desarrolladores experimentados y novatos que se pueden explorar. Entre ellos están los algoritmos y estructuras de datos, las cadenas de texto y números, los tipos de operadores, las clases y objetos, la programación web y los principales errores en el desarrollo de un programa.
+[*Python Cookbook*](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377) es uno de los libros más amenos para el aprendizaje de *Python*. Se puede encontrar las indicaciones para el desarrollo de programas a manera de recetas. Hay una serie de temas interesantes para desarrolladores experimentados y novatos que se pueden explorar. Entre ellos están los algoritmos y estructuras de datos, las cadenas de texto y números, los tipos de operadores, las clases y objetos, la programación web y los principales errores en el desarrollo de un programa.
 
 <a name = "python-para-todos"></a>
 
