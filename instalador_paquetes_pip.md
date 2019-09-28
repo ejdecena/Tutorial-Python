@@ -1,6 +1,6 @@
-<div align = "center">
+<p align = "center">
     <img src = "imagenes/logo_python.jpeg" />
-</div>
+</p>
 
 # 6.1 Instalador de paquetes Pip.
 
