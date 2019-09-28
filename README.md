@@ -1,9 +1,9 @@
-<img style="float:left; margin:10px;" alt="" src="imagenes/python_logo.jpeg"/><div style = "font-size:80px">Tutorial Python.</div>
+<img style="float:left; margin:10px;" alt="" src="imagenes/python_logo.jpeg"/><span style = "font-size:80px">Tutorial Python.</span>
 
 <table style = "border: hidden">
     <tr>
         <td><img src="imagenes/python_logo.jpeg"/></td>
-        <td>Tutorial Python.</td>
+        <td style = "font-size:80px">Tutorial Python.</td>
     </tr>
 </table>
 
