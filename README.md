@@ -1,6 +1,4 @@
-<img style="float:left; margin:10px;" alt="" src="imagenes/python_logo.jpeg"/>
-
-# Tutorial Python.
+<img style="float:left; margin:10px;" alt="" src="imagenes/python_logo.jpeg"/>Tutorial Python.
 
 *Tutorial Python* es una guía de referencias para la instalación e introducción rápida al lenguaje [*Python*](https://www.python.org/).
 
