@@ -1,4 +1,4 @@
-<img style="float:left; margin:10px;" src="imagenes/python_logo.jpeg"/>
+<img style="float:center;" src="imagenes/python_logo.jpeg"/>
 
 # Tutorial Python.
 
