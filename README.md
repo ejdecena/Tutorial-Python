@@ -25,26 +25,23 @@ Históricamente la ciencia se ha dividido en **disciplinas experimentales** y **
 <a name = "que"></a>
 
 ## Instalación de Python.
-***
+
 Según el sistema operativo, *Python* puede ser instalado de 3 maneras:
 * **Windows**: puede ser descargado directamente desde la [página principal](https://www.python.org/downloads/windows/) de *Python*.
 * **Mac OS X**: Aunque la mayoría de las versiones de *MacOsX* vienen con *Python* pre instalado, puede en algunos casos instalarse desde la [página principal](https://www.python.org/downloads/mac-osx/) de *Python*. 
 * **Linux**: Todas las versiones de Linux vienen instaladas con *Python*. podrás ver la versión que tienes instalada abriendo la terminal y escribiendo `python`.
 
 ## Modos de uso.
-***
+
 En *Python*, se suele usar el código de 3 modos relacionados:
 * **Interactivo**: Esto es común en tareas exploratorias, cuando aún no tenemos del todo definido el problema. Por ejemplo, tenemos un conjunto de datos en uno o más archivos y necesitamos saber qué información contienen, quizás hacer algún gráfico o buscar palabras claves. Los modos interactivos de *Python* pueden habilitarse al usarlo directamente en la terminal a través del intérprete del lenguaje, mediante *Jupyter Notebooks*, compiladores online, etc.
-
 
 * **Scripts**: Los scripts (del inglés guión) se refiere a pequeños programas que se usan para tareas sencillas, generalmente cuando queremos automatizar tareas como hacer una copia de respaldo (backup) semanal, o descargar alguna información de una página web cada vez que esta actualice cierta información. A veces también estos scripts se usan como "pegamento" para concatenar programas, generalmente cuando estos programas son complejos o no tenemos acceso al código fuente (o no entendemos el código fuente).
 
 * **Paquetes o librerías**: Esto es más o menos lo que uno tiene en mente cuando piensa en un programa, como una hoja de cálculo, o una aplicación de para el celular. Es decir, son varios bloques de códigos organizados para realizar diversas tareas. En general, un usuario de *Python* NO escribe librerías, sino que hace uso de ellas. Escribir librerías requiere de ciertos principios de ingeniería de software, de lo contrario el código tendrá altas probabilidades de ser ineficiente, difícil de mantener, propenso a errores, etc.
 
-En este repositorio nos centraremos en los dos primeros modos, *Interactivo* y *Scripts*, y sólo usaremos librerías de terceros sin conocer cómo escribirlas nosotros mismos, ya que eso es tarea de los desarrolladores y no de los usuarios. El modo *Interactivo* lo explicamos en el notebook [02_jupyter_notebook.ipynb](01_jupyter_notebook.ipynb).
-
 ## Características fundamentales.
-***
+
 El lenguaje [*Python*](https:///www.python.org) es:
 * Un lenguaje de programación **orientado a objetos**.
 * De **propósito general**, es suficientemente bueno para casi todo.
@@ -60,10 +57,14 @@ El lenguaje [*Python*](https:///www.python.org) es:
 * Buena performance. Aunque estrictamente es un lenguaje lento (el costo de la simplicidad). Existen formas de acelerarlo.
 * Posee un extenso ecosistema de librerías:
 
-[![](imagenes/python_librerias.png)](https://www.youtube.com/watch?v=5GlNDD7qbP4)
+<p align = "center">
+    <a href = "https://www.youtube.com/watch?v=5GlNDD7qbP4">
+        <img src = "imagenes/python_librerias.png"/>
+    </a>
+</p>
 
 ## Libros de aprendizaje.
-***
+
 *Python* es un lenguaje con una curva de aprendizaje interesante. Muchos autores han decidido volcar sus conocimientos para apoyar a los aprendices en la construcción de programas y conocimiento estructurado. Hay libros especializados en temas puntuales o en tópicos importantes; como por ejemplo el desarrollo web o el análisis de datos.
 
 La correcta elección de un libro implica muchos factores, pero es bastante útil de primera mano buscar referencias que nos puedan dar un panorama más claro del autor o título, para así tener la seguridad antes de leer un libro sobre *Python*.
@@ -108,7 +109,7 @@ Estos fueron algunos títulos únicamente del gran universo bibliográfico que g
 Siéntete en la libertad de usar libros para aprender *Python* cuando desees, porque si bien es cierto que para programar se necesita escribir código a diario, un libro puede ser el aliado perfecto al momento de diagnosticar un error o resolver un bug.
 
 ## Trucos y consejos.
-***
+
 ### 1.- Crear un entorno virtual Python.
 Cuando se está desarrollando software en *Python*, es común utilizar diferentes versiones de un mismo paquete. Un *virtualenv*, o entorno virtual de *Python*, es un ambiente creado con el objetivo de aislar recursos como librerías y entornos de ejecución del sistema principal o de otros entornos virtuales. Esto significa que en el mismo sistema, computadora, es posible tener instaladas múltiples versiones de una misma librería sin crear ningún tipo de conflicto.
 
@@ -142,35 +143,10 @@ deactivate
 
 ```python
 1 #!/usr/bin/env python3
-2 ...
-3 ...
+2 
+3 
 4 if __name__ == "__main__":
 5    pass
 6```
 
-La **línea 1** se conoce como *shebang*, se reconoce al iniciar con los caracteres `#!` cuando están al principio de la primera o segunda línea de un archivo de texto. Indica que el archivo es un *script* y le dice al sistema operativo qué intérprete ha de usarse para ejecutarlo. Los sistemas operativos *Linux* (y otros sistemas *Unix-like*) soportan de forma nativa esta característica.
-
-Entre los ejemplos de *shebang* tenemos:
-
-* `#!/usr/bin/python3` -> Usar el ejecutable *Python* localizado en `/usr/bin`
-* `#!/usr/bin/env python3` -> Usa `env` para buscar la variable de entorno "python3" en el PATH para ejecutar el script con ese programa.
-
-Los sistemas operativos *Windows* no tienen soporte nativo para *shebang*. En cambio, usan la *extensión* del archivo para asociarlo al ejecutable de turno. Por lo tanto, la línea de *shebang* sería completamente ignorada en el caso de los sistemas Windows.
-
-La **línea 4** está asociada al modo de funcionamiento del intérprete *Python*. Cuando el intérprete lee un archivo de código, **ejecuta todo el código que se encuentra en él**. Todo módulo (archivo de código) en *Python* tiene un atributo especial llamado `__name__` que define el *espacio de nombres* en el que se está ejecutando el archivo. Este atributo es usado para identificar de forma única un módulo en el sistema de importaciones.
-
-Por su parte `__main__` es el nombre del *ámbito* en el que se ejecuta el código de nivel superior (tu programa principal).
-
-El intérprete pasa el valor del atributo a `"__main__"` si el módulo se está ejecutando como programa principal (cuando lo ejecutas llamando al intérptrete en la terminal con `python my_modulo.py`, haciendo doble click en él, ejecutandolo en el intérprete interactivo, etc ).
-
-Si el módulo NO es llamado como programa principal, sino que es **importado** desde otro módulo, el atributo `__name__` pasa a contener el **nombre del archivo** en sí.
-
-Es decir, si tienes un archivo llamado `mi_modulo.py`, si lo ejecutamos como programa principal el atributo `__name__` será `"__main__"`, si lo usamos importándolo desde otro módulo (`import mi_modulo`) el atributo `__name__` será igual a `"mi_modulo"`.
-
-En resúmen, básicamente lo que haces usando `if __name__ == "__main__":` es ver si el módulo ha sido importado o no. Si no se ha importado (se ha ejecutado como programa principal) ejecuta el código dentro del condicional.
-
-Una de las razones para hacerlo es que, a veces, se escribe un módulo (un archivo .py) que se puede ejecutar directamente, pero que alternativamente, también se puede importar y reutilizar sus funciones, clases, métodos, etc. en otro módulo. Con esto conseguimos que la ejecución sea diferente al ejecutar el módulo directamente que al importarlo desde otro programa.
-
-### 3. Guía de estilo PEP8.
-
-En la organización *Python* existen lo que se llaman *PEP's* o [*Python Enhancement Proposals*](http://www.python.org/dev/peps/pep-0001/#what-is-a-pep), los cuales son documentos que proveen información a la comunidad de *Python* o describen nuevas características del lenguaje, su proceso de desarrollo o su entorno. Uno de estos *PEP's* es el *PEP8*, el cual está dedicado a la recopilación de los estándares de estilo seguidos por los desarrolladores de *Python* a la hora de escribir código para la librería estandar. Un listado completo de los *PEP's* se puede encontrar [aquí](http://www.peps.io/), mientras que una versión en castellano del *PEP8* se puede descargar de [aquí](documentos/guia_pep8_es.pdf) en este repositorio.
+La **línea 1** se conoce como *shebang*, se reconoce al iniciar con los caracteres cuando están al principio de la primera o segunda línea de un archivo de texto. Indica que el archivo es un *script* y le dice al sistema operativo qué intérprete ha de usarse para ejecutarlo. Los sistemas operativos *Linux* (y otros sistemas *Unix-like*) soportan de forma nativa esta característica.
