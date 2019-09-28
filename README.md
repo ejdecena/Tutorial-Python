@@ -1,5 +1,5 @@
 <div align = "center">
-    <img src = "imagenes/python_logo.jpeg" />
+    <img src = "imagenes/logo_python.jpeg" />
 </div>
 
 # Tutorial Python.
@@ -31,7 +31,7 @@
     5.5 <a href = "#python-cookbook">Python Cookbook.</a>
     5.6 <a href = "#python-para-todos">Python para todos.</a>
 6. <a href = "#trucos">Trucos y consejos.</a>
-    6.1 <a href = "#creando">Creando un entorno virtual Python.</a>
+    6.1 <a href = "creando_un_entorno_virtual.md">Creando un entorno virtual Python.</a>
     6.2 <a href = "#estructura">Estructura de un script en Python.</a>
     6.3 <a href = "#guia">Guía de estilo PEP8.</a>
 7. <a href = "#codigos">Códigos Python.</a>
