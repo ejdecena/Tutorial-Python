@@ -1,4 +1,4 @@
-<img style="float:left; margin:10px;" alt="" src="imagenes/python_logo.jpeg"/>Tutorial Python.
+<img style="float:left; margin:10px;" alt="" src="imagenes/python_logo.jpeg"/><h1>Tutorial Python.</h1>
 
 *Tutorial Python* es una guía de referencias para la instalación e introducción rápida al lenguaje [*Python*](https://www.python.org/).
 
@@ -171,28 +171,28 @@ Cuando se está desarrollando software en *Python*, es común utilizar diferente
 Para crear y utilizar un entorno virtual debe instalarse `virtualenv`; pero antes debe instalarse el manejador de paquetes de *Python* `pip`:
 
 ```bash
-sudo apt-get install python3-pip
+$ sudo apt-get install python3-pip
 ```
 Luego instalamos `virtualenv`:
 ```bash
-sudo pip3 install virtualenv
+$ sudo pip3 install virtualenv
 ```
 #### Creando un entorno virtual.
 
 Para crear el entorno virtual debes dirigirte a la carpeta donde lo deseas crear. Se crea con el comando `virtualenv` seguido del nombre que le quieras poner, como lo indica el siguiente ejemplo:
 ```bash
-virtualenv nombre_de_tu_entorno -p python3
+$ virtualenv nombre_de_tu_entorno -p python3
 ```
 Esto creará una nueva carpeta dentro del directorio que hayamos escogido, allí se instalarán todos los paquetes que desees utilizar.
 
 #### Activar / Desactivar entorno virtual.
 Para **activar** el entorno virtual debes dirigirte a la nueva carpeta anteriormente creada y ejecuta:
 ```bash
-source nombre_entorno_virtual/bin/activate
+$ source nombre_entorno_virtual/bin/activate
 ```
 Para **desactivar** el entorno virtual simplemente ejecuta:
 ```bash
-deactivate
+$ deactivate
 ```
 <a href = "#indice">[IR AL ÍNDICE]</a>
 
