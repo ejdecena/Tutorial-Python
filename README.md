@@ -32,10 +32,10 @@
     5.6 <a href = "#python-para-todos">Python para todos.</a>
 6. <a href = "#trucos">Trucos y consejos.</a>
     6.1 <a href = "creando_un_entorno_virtual.md">Creando un entorno virtual Python.</a>
-    6.2 <a href = "#estructura">Estructura de un script en Python.</a>
-    6.3 <a href = "#guia">Guía de estilo PEP8.</a>
+    6.2 <a href = "estructura_script_python.md">Estructura de un script en Python.</a>
+    6.3 <a href = "guia_estilo_pep8.md">Guía de estilo PEP8.</a>
 7. <a href = "#codigos">Códigos Python.</a>
-    7.1 <a href = "https://github.com/ejdecena/tutorial_python/blob/master/codigos/hola_mundo.py">Hola Mundo Python!</a>
+    7.1 <a href = "codigos/hola_mundo.py">Hola Mundo Python!</a>
 </pre>
 
 <a name = "python"></a>
@@ -166,82 +166,4 @@ Siéntete en la libertad de usar libros para aprender *Python* cuando desees, po
 
 ## 6. Trucos y consejos.
 
-<a name = "creando"></a>
 
-### 6.1 Creando un entorno virtual Python.
-
-Cuando se está desarrollando software en *Python*, es común utilizar diferentes versiones de un mismo paquete. Un *virtualenv*, o entorno virtual de *Python*, es un ambiente creado con el objetivo de aislar recursos como librerías y entornos de ejecución del sistema principal o de otros entornos virtuales. Esto significa que en el mismo sistema, computadora, es posible tener instaladas múltiples versiones de una misma librería sin crear ningún tipo de conflicto.
-
-Para crear y utilizar un entorno virtual debe instalarse `virtualenv`; pero antes debe instalarse el manejador de paquetes de *Python* `pip`:
-
-```bash
-$ sudo apt-get install python3-pip
-```
-Luego instalamos `virtualenv`:
-```bash
-$ sudo pip3 install virtualenv
-```
-#### Creando un entorno virtual.
-
-Para crear el entorno virtual debes dirigirte a la carpeta donde lo deseas crear. Se crea con el comando `virtualenv` seguido del nombre que le quieras poner, como lo indica el siguiente ejemplo:
-```bash
-$ virtualenv nombre_de_tu_entorno -p python3
-```
-Esto creará una nueva carpeta dentro del directorio que hayamos escogido, allí se instalarán todos los paquetes que desees utilizar.
-
-#### Activar / Desactivar entorno virtual.
-Para **activar** el entorno virtual debes dirigirte a la nueva carpeta anteriormente creada y ejecuta:
-```bash
-$ source nombre_entorno_virtual/bin/activate
-```
-Para **desactivar** el entorno virtual simplemente ejecuta:
-```bash
-$ deactivate
-```
-<a href = "#indice">[IR AL ÍNDICE]</a>
-
-<a name = "estructura"></a>
-
-### 6.2 Estructura de un script en Python.
-
-```python
-1 #!/usr/bin/env python3
-2 
-3 
-4 if __name__ == "__main__":
-5    pass
-6
-```
-
-La **línea 1** se conoce como *shebang*, se reconoce al iniciar con los caracteres `#!` cuando están al principio de la primera o segunda línea de un archivo de texto. Indica que el archivo es un *script* y le dice al sistema operativo qué intérprete ha de usarse para ejecutarlo. Los sistemas operativos *Linux* (y otros sistemas *Unix-like*) soportan de forma nativa esta característica.
-
-Entre los ejemplos de *shebang* tenemos:
-
-* `#!/usr/bin/python3` -> Usar el ejecutable *Python* localizado en `/usr/bin`
-* `#!/usr/bin/env python3` -> Usa `env` para buscar la variable de entorno "python3" en el PATH para ejecutar el script con ese programa.
-
-Los sistemas operativos *Windows* no tienen soporte nativo para *shebang*. En cambio, usan la *extensión* del archivo para asociarlo al ejecutable de turno. Por lo tanto, la línea de *shebang* sería completamente ignorada en el caso de los sistemas Windows.
-
-La **línea 4** está asociada al modo de funcionamiento del intérprete *Python*. Cuando el intérprete lee un archivo de código, **ejecuta todo el código que se encuentra en él**. Todo módulo (archivo de código) en *Python* tiene un atributo especial llamado `__name__` que define el *espacio de nombres* en el que se está ejecutando el archivo. Este atributo es usado para identificar de forma única un módulo en el sistema de importaciones.
-
-Por su parte `__main__` es el nombre del *ámbito* en el que se ejecuta el código de nivel superior (tu programa principal).
-
-El intérprete pasa el valor del atributo a `"__main__"` si el módulo se está ejecutando como programa principal (cuando lo ejecutas llamando al intérptrete en la terminal con `python my_modulo.py`, haciendo doble click en él, ejecutandolo en el intérprete interactivo, etc ).
-
-Si el módulo NO es llamado como programa principal, sino que es **importado** desde otro módulo, el atributo `__name__` pasa a contener el **nombre del archivo** en sí.
-
-Es decir, si tienes un archivo llamado `mi_modulo.py`, si lo ejecutamos como programa principal el atributo `__name__` será `"__main__"`, si lo usamos importándolo desde otro módulo (`import mi_modulo`) el atributo `__name__` será igual a `"mi_modulo"`.
-
-En resúmen, básicamente lo que haces usando `if __name__ == "__main__":` es ver si el módulo ha sido importado o no. Si no se ha importado (se ha ejecutado como programa principal) ejecuta el código dentro del condicional.
-
-Una de las razones para hacerlo es que, a veces, se escribe un módulo (un archivo .py) que se puede ejecutar directamente, pero que alternativamente, también se puede importar y reutilizar sus funciones, clases, métodos, etc. en otro módulo. Con esto conseguimos que la ejecución sea diferente al ejecutar el módulo directamente que al importarlo desde otro programa.
-
-<a href = "#indice">[IR AL ÍNDICE]</a>
-
-<a name = "guia"></a>
-
-### 6.3 Guía de estilo PEP8.
-
-En la organización *Python* existen lo que se llaman *PEP's* o [*Python Enhancement Proposals*](http://www.python.org/dev/peps/pep-0001/#what-is-a-pep), los cuales son documentos que proveen información a la comunidad de *Python* o describen nuevas características del lenguaje, su proceso de desarrollo o su entorno. Uno de estos *PEP's* es el *PEP8*, el cual está dedicado a la recopilación de los estándares de estilo seguidos por los desarrolladores de *Python* a la hora de escribir código para la librería estandar. Un listado completo de los *PEP's* se puede encontrar [aquí](http://www.peps.io/), mientras que una versión en castellano del *PEP8* se puede descargar de [aquí](documentos/guia_pep8_es.pdf) en este repositorio.
-
-<a href = "#indice">[IR AL ÍNDICE]</a>
