@@ -1,5 +1,9 @@
 <img align = "center" src="imagenes/python_logo.jpeg"/>
 
+<div align = "center">
+        <img src = "imagenes/python_logo.jpeg" />
+</div>
+
 # Tutorial Python.
 
 *Tutorial Python* es una guía de referencias para la instalación e introducción rápida al lenguaje [*Python*](https://www.python.org/).
