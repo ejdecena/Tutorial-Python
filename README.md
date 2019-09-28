@@ -12,7 +12,7 @@
 ## Desarrolladores.
 
 * [Ing. Edgard Decena.](mailto:edecena@gmail.com)
-* [Ing. Luís Acevedo.](mailto:laar19@protonmail.com)
+* [Ing. Luís Acevedo.](mailto:laar@protonmail.com)
 
 <a name = "indice"></a>
 
@@ -30,11 +30,12 @@
     5.4 <a href = "#learning-python-the-hard-way">Learn Python: the hard way.</a>
     5.5 <a href = "#python-cookbook">Python Cookbook.</a>
     5.6 <a href = "#python-para-todos">Python para todos.</a>
-6. <a href = "#trucos">Trucos y consejos.</a>
-    6.1 <a href = "creando_un_entorno_virtual.md">Creando un entorno virtual Python.</a>
-    6.2 <a href = "estructura_script_python.md">Estructura de un script en Python.</a>
-    6.3 <a href = "guia_estilo_pep8.md">Guía de estilo PEP8.</a>
-7. <a href = "#codigos">Códigos Python.</a>
+6. <a href = "#">Trucos y consejos.</a>
+    6.1 <a href = "instalador_paquetes_pip.md">Instalador de Paquetes Pip.</a>
+    6.2 <a href = "creando_un_entorno_virtual.md">Creando un entorno virtual Python.</a>
+    6.3 <a href = "estructura_script_python.md">Estructura de un script en Python.</a>
+    6.4 <a href = "guia_estilo_pep8.md">Guía de estilo PEP8.</a>
+7. <a href = "#">Códigos Python.</a>
     7.1 <a href = "codigos/hola_mundo.py">Hola Mundo Python!</a>
 </pre>
 
@@ -161,9 +162,3 @@ Estos fueron algunos títulos únicamente del gran universo bibliográfico que g
 Siéntete en la libertad de usar libros para aprender *Python* cuando desees, porque si bien es cierto que para programar se necesita escribir código a diario, un libro puede ser el aliado perfecto al momento de diagnosticar un error o resolver un bug.
 
 <a href = "#indice">[IR AL ÍNDICE]</a>
-
-<a name = "trucos"></a>
-
-## 6. Trucos y consejos.
-
-
