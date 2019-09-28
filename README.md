@@ -1,4 +1,4 @@
-<img style="float:center;" src="imagenes/python_logo.jpeg"/>
+<img align = "center" src="imagenes/python_logo.jpeg"/>
 
 # Tutorial Python.
 
