@@ -1,8 +1,6 @@
-# Tutorial Python.
+<img style="float:left; margin:10px;" alt="" src="imagenes/python_logo.jpeg"/>
 
-<p align = "center">
-        <img src = "imagenes/python_logo.jpeg"/>
-</p>
+# Tutorial Python.
 
 *Tutorial Python* es una guía de referencias para la instalación e introducción rápida al lenguaje [*Python*](https://www.python.org/).
 
@@ -20,7 +18,7 @@
 
 <pre>
 1. <a href = "#python">Python y el Cálculo Científico.</a>
-2. <a href = "#instalacion">Instalación de Python.</a>
+2. <a href = "#instalacion">Instalación.</a>
 3. <a href = "#modos">Modos de uso.</a>
 4. <a href = "#caracteristicas">Características fundamentales.</a>
 5. <a href = "#libros">Libros de aprendizaje.</a>
@@ -29,13 +27,13 @@
     5.3 <a href = "#fluent-python">Fluent Python.</a>
     5.4 <a href = "#learning-python-the-hard-way">Learn Python: the hard way.</a>
     5.5 <a href = "#python-cookbook">Python Cookbook.</a>
-    5.6 <a href = "#python-para-todos">Python para todos. (online)</a>
+    5.6 <a href = "#python-para-todos">Python para todos.</a>
 6. <a href = "#trucos">Trucos y consejos.</a>
     6.1 <a href = "#creando">Creando un entorno virtual Python.</a>
     6.2 <a href = "#estructura">Estructura de un script en Python.</a>
     6.3 <a href = "#guia">Guía de estilo PEP8.</a>
 7. <a href = "#codigos">Códigos Python.</a>
-    7.1 <a href = "#hola-mundo">Hola Mundo Python!</a>
+    7.1 <a href = "https://github.com/ejdecena/tutorial_python/blob/master/codigos/hola_mundo.py">Hola Mundo Python!</a>
 </pre>
 
 <a name = "python"></a>
@@ -50,7 +48,7 @@ Para la solución de estos problemas científicos, dentro del software libre ha 
 
 <a name = "instalacion"></a>
 
-## 2. Instalación de Python.
+## 2. Instalación.
 
 Según el sistema operativo, *Python* puede ser instalado de 3 maneras:
 * **Windows**: puede ser descargado directamente desde la [página principal](https://www.python.org/downloads/windows/) de *Python*.
@@ -114,7 +112,7 @@ Aquí te presentamos los principales libros sobre el lenguaje, los más destacad
 
 ### 5.1 Python Crash Course.
 
-[Python Crash Course](https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/1593276036) es un curso sorprendente, orientado a personas que quieren aprender a programar por cuenta propia.  Es una introducción amena a la programación y particularmente, como es lógico, al lenguaje *Python*. A través del libro se tienen distintos desafíos entre los cuales destaca el escribir programas, resolver problemas y consolidar los conceptos básicos previos a código de mayor nivel.
+[*Python Crash Course*](https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/1593276036) es un curso sorprendente, orientado a personas que quieren aprender a programar por cuenta propia.  Es una introducción amena a la programación y particularmente, como es lógico, al lenguaje *Python*. A través del libro se tienen distintos desafíos entre los cuales destaca el escribir programas, resolver problemas y consolidar los conceptos básicos previos a código de mayor nivel.
 
 El libro enseña conceptos bastante populares en la actualidad, como el uso de librerías, la respuesta a eventos de mouse y teclado, visualización de datos e incluso creación de juegos en 2D.
 
@@ -122,7 +120,7 @@ El libro enseña conceptos bastante populares en la actualidad, como el uso de l
 
 ### 5.2 Learning Python.
 
-[Learning Python](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730/ref=pd_lpo_sbs_14_t_2?_encoding=UTF8&psc=1&refRID=JN73FSJC7091MKHXNN8Y) es uno de los libros más populares, dado que es el resumen del curso de entrenamiento en *Python* de su autor, Mark Lutz. Es un libro que mejora constantemente, presentando una quinta edición bastante robusta que introduce conceptos y buenas prácticas.
+[*Learning Python*](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730/ref=pd_lpo_sbs_14_t_2?_encoding=UTF8&psc=1&refRID=JN73FSJC7091MKHXNN8Y) es uno de los libros más populares, dado que es el resumen del curso de entrenamiento en *Python* de su autor, Mark Lutz. Es un libro que mejora constantemente, presentando una quinta edición bastante robusta que introduce conceptos y buenas prácticas.
 
 Tiene muchas bondades, entre ellas desafíos que permiten escribir código de forma rápida, eficiente y de alta calidad. Está indicado para personas con pocos conocimientos, aunque obviamente es útil también para programadores con mayor experiencia.
 
@@ -132,7 +130,7 @@ De primera mano permite explorar los tipos de objeto por defecto que vienen con 
 
 ### 5.3 Fluent Python.
 
-[Fluent Python](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/ref=sr_1_1?ie=UTF8&qid=1499089735&sr=8-1&keywords=Fluent+Python%3A+Clear%2C+Concise%2C+and+Effective+Programming) es un libro distinto, está diseñado para volverse productivo en el desarrollo con *Python* de forma rápida, dado que es un libro “hands-on” que básicamente prioriza las actividades a la teoría.
+[*Fluent Python*](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/ref=sr_1_1?ie=UTF8&qid=1499089735&sr=8-1&keywords=Fluent+Python%3A+Clear%2C+Concise%2C+and+Effective+Programming) es un libro distinto, está diseñado para volverse productivo en el desarrollo con *Python* de forma rápida, dado que es un libro “hands-on” que básicamente prioriza las actividades a la teoría.
 
 Este libro se concentra en aspectos importantes como modelos y estructuras de datos, funciones y flujos de control. Además tiene una sección muy interesante relacionada a la metaprogramación, un concepto más avanzado pero inherente a grandes proyectos.
 
@@ -140,7 +138,7 @@ Este libro se concentra en aspectos importantes como modelos y estructuras de da
 
 ### 5.4 Learn Python: the hard way.
 
-[Learn Python: the hard way](https://learnpythonthehardway.org/book/) es un libro que por el título puede pensarse está orientado a programadores experimentados o que buscan un desafío en su aprendizaje. Sin embargo, es un libro eminentemente para principiantes, de una elevada calidad. El término “Hard way” se refiere al deseo del autor de afianzar algunos conceptos como base para avanzar en el libro.
+[*Learn Python: the hard way*](https://learnpythonthehardway.org/book/) es un libro que por el título puede pensarse está orientado a programadores experimentados o que buscan un desafío en su aprendizaje. Sin embargo, es un libro eminentemente para principiantes, de una elevada calidad. El término “Hard way” se refiere al deseo del autor de afianzar algunos conceptos como base para avanzar en el libro.
 
 El libro tiene niveles iniciales con temas elementales (como el primer Hola mundo o la construcción de variables) pero poco a poco ahonda y permite tener una visión sólida del lenguaje *Python* de cara a la programación orientada a objetos.
 
@@ -148,13 +146,13 @@ El libro tiene niveles iniciales con temas elementales (como el primer Hola mund
 
 ### 5.5 Python Cookbook.
 
-[Python Cookbook](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377/ref=sr_1_4?s=books&ie=UTF8&qid=1520398239&sr=1-4&keywords=python+cookbook) es uno de los libros más amenos para el aprendizaje de *Python*. Se puede encontrar las indicaciones para el desarrollo de programas a manera de recetas. Hay una serie de temas interesantes para desarrolladores experimentados y novatos que se pueden explorar. Entre ellos están los algoritmos y estructuras de datos, las cadenas de texto y números, los tipos de operadores, las clases y objetos, la programación web y los principales errores en el desarrollo de un programa.
+[*Python Cookbook*](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377/ref=sr_1_4?s=books&ie=UTF8&qid=1520398239&sr=1-4&keywords=python+cookbook) es uno de los libros más amenos para el aprendizaje de *Python*. Se puede encontrar las indicaciones para el desarrollo de programas a manera de recetas. Hay una serie de temas interesantes para desarrolladores experimentados y novatos que se pueden explorar. Entre ellos están los algoritmos y estructuras de datos, las cadenas de texto y números, los tipos de operadores, las clases y objetos, la programación web y los principales errores en el desarrollo de un programa.
 
 <a name = "python-para-todos"></a>
 
-### 5.6 Python para todos. (online)
+### 5.6 Python para todos.
 
-[Python para todos](documentos/libro_python_para_todos.pdf) se trata de un libro gratuito, que empieza tratando sobre conceptos básicos pero ahonda hasta el uso de bases de datos. Está distribuido bajo una licencia de *Creative Commons* y se puede realizar su descarga en formato PDF directamente desde su misma página web.
+[*Python para todos*](documentos/libro_python_para_todos.pdf) se trata de un libro gratuito, que empieza tratando sobre conceptos básicos pero ahonda hasta el uso de bases de datos. Está distribuido bajo una licencia de *Creative Commons* y se puede realizar su descarga en formato PDF directamente desde su misma página web.
 
 Estos fueron algunos títulos únicamente del gran universo bibliográfico que gira en torno a *Python*. Como hemos podido ver, la mayoría de ellos están escritos en inglés, pero inclusive si no tienes el idioma a la perfección muchos de los conceptos son entendibles.
 
@@ -243,3 +241,5 @@ Una de las razones para hacerlo es que, a veces, se escribe un módulo (un archi
 ### 6.3 Guía de estilo PEP8.
 
 En la organización *Python* existen lo que se llaman *PEP's* o [*Python Enhancement Proposals*](http://www.python.org/dev/peps/pep-0001/#what-is-a-pep), los cuales son documentos que proveen información a la comunidad de *Python* o describen nuevas características del lenguaje, su proceso de desarrollo o su entorno. Uno de estos *PEP's* es el *PEP8*, el cual está dedicado a la recopilación de los estándares de estilo seguidos por los desarrolladores de *Python* a la hora de escribir código para la librería estandar. Un listado completo de los *PEP's* se puede encontrar [aquí](http://www.peps.io/), mientras que una versión en castellano del *PEP8* se puede descargar de [aquí](documentos/guia_pep8_es.pdf) en este repositorio.
+
+<a href = "#indice">[IR AL ÍNDICE]</a>
