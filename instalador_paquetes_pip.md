@@ -8,7 +8,7 @@
 
 ## 6.1.1 Instalación.
 
-*Pip* no viene instalado con *Python*, por lo tanto hay que instalarlo. En un sistema operativo *Linux*, con paquetería *apt* (*Debian*, *Ubuntu*, *Linux Mint*, etc), debemos abrir una terminal (`Ctrl + Alt + T`) y ejecutar:
+*Pip* no viene instalado con *Python*, por lo tanto debemos instalarlo. En un sistema operativo *Linux*, con paquetería *apt* (*Debian*, *Ubuntu*, *Linux Mint*, etc), debemos abrir una terminal (`Ctrl + Alt + T`) y ejecutar:
 ```bash
 $ sudo apt-get install python3-pip
 ```
@@ -41,7 +41,7 @@ $ pip search [cadena de búsqueda]
 
 ## 6.1.5 Información de paquetes.
 
-Una vez localizado un paquete con la instrucción `pip search`, podemos solicitar a *Pip* que nos muestre información adicional del paquete ejecutando la siguiente instrucción desde la terminal:
+Una vez localizado un paquete con la instrucción `pip search`, podemos solicitar a *Pip* que nos muestre información adicional sobre el paquete ejecutando desde la terminal:
 ```bash
 $ pip show [paquete]
 ```
@@ -76,6 +76,10 @@ $ pip freeze
 Para actualizar un paquete desactualizado, ejecutamos desde una terminal:
 ```bash
 $ pip install --upgrade [paquete]
+```
+o bien,
+```bash
+$ pip install -U [paquete]
 ```
 
 ## 6.1.10 Desinstalar paquetes.

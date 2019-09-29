@@ -6,7 +6,7 @@
 
 Cuando se está desarrollando software en *Python*, es común utilizar diferentes versiones de un mismo paquete. Un *virtualenv*, o entorno virtual de *Python*, es un ambiente creado con el objetivo de aislar recursos como librerías y entornos de ejecución del sistema principal o de otros entornos virtuales. Esto significa que en el mismo sistema, computadora, es posible tener instaladas múltiples versiones de una misma librería sin crear ningún tipo de conflicto.
 
-Para crear y utilizar un entorno virtual debe instalarse `virtualenv`; pero antes debe instalarse el manejador de paquetes de *Python* `pip`:
+Para crear y utilizar un entorno virtual debe instalarse `virtualenv`; pero antes debe instalarse el [manejador de paquetes](instalador_paquetes_pip.md) de *Python* `pip`:
 ```bash
 $ sudo apt-get install python3-pip
 ```
