@@ -2,6 +2,8 @@
     <img src = "imagenes/logo_python.jpeg" />
 </div>
 
+<a name = "cabecera"></a>
+
 # Libros de aprendizaje.
 
 *Python* es un lenguaje con una curva de aprendizaje interesante. Muchos autores han decidido volcar sus conocimientos para apoyar a los aprendices en la construcción de programas y conocimiento estructurado. Hay libros especializados en temas puntuales o en tópicos importantes; como por ejemplo el desarrollo web o el análisis de datos.

@@ -2,6 +2,8 @@
     <img src = "imagenes/logo_python.jpeg" />
 </div>
 
+<a name = "cabecera"></a>
+
 # Creando un entorno virtual Python.
 
 Cuando se está desarrollando software en *Python*, es común utilizar diferentes versiones de un mismo paquete. Un *virtualenv*, o entorno virtual de *Python*, es un ambiente creado con el objetivo de aislar recursos como librerías y entornos de ejecución del sistema principal o de otros entornos virtuales. Esto significa que en el mismo sistema, computadora, es posible tener instaladas múltiples versiones de una misma librería sin crear ningún tipo de conflicto.

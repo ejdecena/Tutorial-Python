@@ -2,6 +2,8 @@
     <img src = "imagenes/logo_python.jpeg" />
 </div>
 
+<a name = "cabecera"></a>
+
 # Estructura de un script en Python.
 
 La estructura básica por **convención** de un programa *Python* se presenta en el siguiente fragmento de código:

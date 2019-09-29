@@ -2,6 +2,8 @@
     <img src = "imagenes/logo_python.jpeg" />
 </div>
 
+<a name = "cabecera"></a>
+
 # Python y el Cálculo Científico.
 
 Históricamente la ciencia se ha dividido en **disciplinas experimentales** y **disciplinas teóricas** (*empirismo* y *racionalismo*). Consecuentemente, un gran número de estudios en filosofía de la ciencia (*epistemología*) se han dedicado al estudio de la interelación de estos dos modos de hacer ciencia. Durante las últimas décadas la **computación** ha emergido como un componente importante del quehacer científico, y al hacerlo ha desestabilizado esta visión binaria de la ciencia. Dicho de forma simple, es posible ahora usar las computadoras para resolver problemas científicos de forma más rápida y menos engorrosa; **pero sobre todo, resolver problemas que antes no podían ser resueltos analíticamente**.

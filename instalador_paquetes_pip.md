@@ -2,6 +2,8 @@
     <img src = "imagenes/logo_python.jpeg" />
 </p>
 
+<a name = "cabecera"></a>
+
 # Instalador de paquetes Pip.
 
 [*Pip*](https://es.wikipedia.org/wiki/Pip_(administrador_de_paquetes)) es un acrónimo recursivo que se puede interpretar como *Pip Instalador de Paquetes* o *Pip Instalador Python*. *Pip* es un sistema de gestión de paquetes sencillo utilizado por *Python* para la **instalación** y **administración** de paquetes del [*Python Package Index (PyPI)*](https://es.wikipedia.org/wiki/Python_Package_Index).

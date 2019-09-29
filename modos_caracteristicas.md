@@ -2,6 +2,8 @@
     <img src = "imagenes/logo_python.jpeg" />
 </div>
 
+<a name = "cabecera"></a>
+
 # Modos de uso.
 
 En *Python*, se suele usar el código de 3 modos relacionados:
