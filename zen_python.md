@@ -2,7 +2,7 @@
     <img src = "imagenes/logo_python.jpeg" />
 </div>
 
-# 6.5 El Zen de Python.
+# El Zen de Python.
 
 En el año 1999 Tim Peters redactó 19 aforismos como una concreta guía de principios para el diseño de código *Python*. Es citado en muchas ocasiones alrededor de la comunidad del lenguaje, por lo que es conveniente tener una referencia del mismo para los usuarios de este repositorio. Originalmente el *Zen de Python* fue enviado a los miembros de la lista de correo (mailing list) de *Python* el 4 de Junio de 1999.
 

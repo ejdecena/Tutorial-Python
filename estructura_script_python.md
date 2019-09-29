@@ -2,7 +2,7 @@
     <img src = "imagenes/logo_python.jpeg" />
 </div>
 
-# 6.3 Estructura de un script en Python.
+# Estructura de un script en Python.
 
 La estructura básica por **convención** de un programa *Python* se presenta en el siguiente fragmento de código:
 
