@@ -90,4 +90,4 @@ $ pip uninstall [paquete]
 ```
 Para desinstalar varios paquetes tendremos que escribirlos con un espacio entre ellos.
 
-<a href = "https://github.com/ejdecena/tutorial_python">[IR AL ÍNDICE]</a>
+<a href = "README.md">[IR AL ÍNDICE]</a>

@@ -35,4 +35,4 @@ El lenguaje *Python* es:
     </a>
 </p>
 
-<a href = "https://github.com/ejdecena/tutorial_python">[IR AL ÍNDICE]</a>
+<a href = "README.md">[IR AL ÍNDICE]</a>

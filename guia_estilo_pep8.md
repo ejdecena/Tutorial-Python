@@ -23,4 +23,4 @@ Algunas las principales convenciones de estilo para escribir código *Python* so
 * No se deben de realizar comentarios obvios.
 * No se deben comparar booleanos mediante ==
 
-<a href = "https://github.com/ejdecena/tutorial_python">[IR AL ÍNDICE]</a>
+<a href = "README.md">[IR AL ÍNDICE]</a>

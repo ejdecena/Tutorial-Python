@@ -33,4 +33,4 @@ Para **desactivar** el entorno virtual simplemente ejecuta:
 ```bash
 $ deactivate
 ```
-<a href = "https://github.com/ejdecena/tutorial_python">[IR AL ÍNDICE]</a>
+<a href = "README.md">[IR AL ÍNDICE]</a>

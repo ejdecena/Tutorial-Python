@@ -52,4 +52,4 @@ Estos fueron apenas algunos títulos del gran universo bibliográfico que gira e
 
 Siéntete en la libertad de usar libros para aprender *Python* cuando desees, porque si bien es cierto que para programar se necesita escribir código a diario, un libro puede ser el aliado perfecto al momento de diagnosticar un error o resolver un bug.
 
-<a href = "https://github.com/ejdecena/tutorial_python">[IR AL ÍNDICE]</a>
+<a href = "README.md">[IR AL ÍNDICE]</a>

@@ -15,4 +15,4 @@ Según el sistema operativo, *Python* puede ser instalado de 3 maneras:
 * **Mac OS X**: Aunque la mayoría de las versiones de *MacOsX* vienen con *Python* pre instalado, puede que en algunos casos deba instalarse desde la [página principal](https://www.python.org/downloads/mac-osx/) de *Python*. 
 * **Linux**: Todas las versiones de *Linux* vienen instaladas con *Python*. podrás ver la versión que tienes instalada abriendo la terminal y escribiendo `python`.
 
-<a href = "https://github.com/ejdecena/tutorial_python">[IR AL ÍNDICE]</a>
+<a href = "README.md">[IR AL ÍNDICE]</a>

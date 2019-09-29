@@ -38,4 +38,4 @@ En resúmen, básicamente lo que haces usando `if __name__ == "__main__":` es ve
 
 Una de las razones para hacerlo es que, a veces, se escribe un módulo (un archivo *.py*) que se puede ejecutar directamente, pero que alternativamente, también se puede importar y reutilizar sus funciones, clases, métodos, etc. en otro módulo. Con esto conseguimos que la ejecución sea diferente al ejecutar el módulo directamente que al importarlo desde otro programa.
 
-<a href = "https://github.com/ejdecena/tutorial_python">[IR AL ÍNDICE]</a>
+<a href = "README.md">[IR AL ÍNDICE]</a>
