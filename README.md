@@ -19,7 +19,7 @@
 1. [Modos de uso y características.](modos_caracteristicas.md)
 1. [Libros de aprendizaje.](libros_aprendizaje.md)
 1. **Trucos y consejos:**
-    1. [Instalador de Paquetes PIP.](instalador_paquetes_pip.md)
+    1. [Instalador de Paquetes Pip.](instalador_paquetes_pip.md)
     1. [Creando un entorno virtual *Python*.](creando_un_entorno_virtual.md)
     1. [Estructura de un script en *Python*.](estructura_script_python.md)
     1. [Guía de estilo PEP8.](guia_estilo_pep8.md)
