@@ -4,6 +4,8 @@
 
 # 6.3 Estructura de un script en Python.
 
+La estructura básica por **convención** de un programa *Python* se presenta en el siguiente fragmento de código:
+
 ```python
 1 #!/usr/bin/env python3
 2 

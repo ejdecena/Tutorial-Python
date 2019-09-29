@@ -29,7 +29,8 @@
     5.3 <a href = "#fluent-python">Fluent Python.</a>
     5.4 <a href = "#learning-python-the-hard-way">Learn Python: the hard way.</a>
     5.5 <a href = "#python-cookbook">Python Cookbook.</a>
-    5.6 <a href = "#python-para-todos">Python para todos.</a>
+    5.6 <a href = "#python-para-todos">Python para todos. (En documentos/)</a>
+    5.7 <a href = "#python-in-practice">Python in practice. (En documentos/)</a>
 6. <a href = "#">Trucos y consejos.</a>
     6.1 <a href = "instalador_paquetes_pip.md">Instalador de Paquetes Pip.</a>
     6.2 <a href = "creando_un_entorno_virtual.md">Creando un entorno virtual Python.</a>
@@ -43,9 +44,9 @@
 
 ## 1. Python y el Cálculo Científico.
 
-Históricamente la ciencia se ha dividido en **disciplinas experimentales** y **disciplinas teóricas** (o *empirismo* y *racionalismo*). Consecuentemente, un gran número de estudios en filosofía de la ciencia (*epistemología*) se han dedicado al estudio de la interelación de estos dos modos de hacer ciencia. Durante las últimas décadas la **computación** ha emergido como un componente importante del quehacer científico, y al hacerlo ha desestabilizado esta visión binaria de la ciencia. Dicho de una forma simple, es posible ahora usar las computadoras para resolver problemas científicos de forma más rápida y menos engorrosa; **pero sobre todo, resolver problemas que antes no podían ser resueltos analíticamente**.
+Históricamente la ciencia se ha dividido en **disciplinas experimentales** y **disciplinas teóricas** (*empirismo* y *racionalismo*). Consecuentemente, un gran número de estudios en filosofía de la ciencia (*epistemología*) se han dedicado al estudio de la interelación de estos dos modos de hacer ciencia. Durante las últimas décadas la **computación** ha emergido como un componente importante del quehacer científico, y al hacerlo ha desestabilizado esta visión binaria de la ciencia. Dicho de forma simple, es posible ahora usar las computadoras para resolver problemas científicos de forma más rápida y menos engorrosa; **pero sobre todo, resolver problemas que antes no podían ser resueltos analíticamente**.
 
-Para la solución de estos problemas científicos, dentro del software libre ha surgido en los últimos años el lenguaje de programación [**Python**](https://www.python.org), que últimamente ha tenido una mejora sustancial con la inclusión de potentes y versátiles librerías de cálculo simbólico (*SymPy*), numérico (*NumPy* y *SciPy*) y gráfico (*PyPlot* y *Matplotlib*). *Python* ha tenido una vertiginosa evolución y expansión a nivel mundial, no sólo en el ámbito académico, sino también en el ámbito científico e industrial.
+Para la solución de estos problemas científicos, dentro del software libre ha surgido en los últimos años el lenguaje de programación [**Python**](https://www.python.org), que últimamente ha tenido una mejora sustancial con la inclusión de potentes y versátiles librerías de cálculo simbólico (*SymPy*), de cálculo numérico (*NumPy* y *SciPy*) y visualización gráfica (*PyPlot* y *Matplotlib*). *Python* ha tenido una vertiginosa evolución y expansión a nivel mundial, no sólo en el ámbito académico, sino también en el ámbito científico e industrial.
 
 <a href = "#indice">[IR AL ÍNDICE]</a>
 
@@ -55,8 +56,8 @@ Para la solución de estos problemas científicos, dentro del software libre ha 
 
 Según el sistema operativo, *Python* puede ser instalado de 3 maneras:
 * **Windows**: puede ser descargado directamente desde la [página principal](https://www.python.org/downloads/windows/) de *Python*.
-* **Mac OS X**: Aunque la mayoría de las versiones de *MacOsX* vienen con *Python* pre instalado, puede en algunos casos instalarse desde la [página principal](https://www.python.org/downloads/mac-osx/) de *Python*. 
-* **Linux**: Todas las versiones de Linux vienen instaladas con *Python*. podrás ver la versión que tienes instalada abriendo la terminal y escribiendo `python`.
+* **Mac OS X**: Aunque la mayoría de las versiones de *MacOsX* vienen con *Python* pre instalado, puede que en algunos casos deba instalarse desde la [página principal](https://www.python.org/downloads/mac-osx/) de *Python*. 
+* **Linux**: Todas las versiones de *Linux* vienen instaladas con *Python*. podrás ver la versión que tienes instalada abriendo la terminal y escribiendo `python`.
 
 <a href = "#indice">[IR AL ÍNDICE]</a>
 
@@ -68,9 +69,9 @@ En *Python*, se suele usar el código de 3 modos relacionados:
 
 * **Interactivo**: Esto es común en tareas exploratorias, cuando aún no tenemos del todo definido el problema. Por ejemplo, tenemos un conjunto de datos en uno o más archivos y necesitamos saber qué información contienen, quizás hacer algún gráfico o buscar palabras claves. Los modos interactivos de *Python* pueden habilitarse al usarlo directamente en la terminal a través del intérprete del lenguaje, mediante *Jupyter Notebooks*, compiladores online, etc.
 
-* **Scripts**: Los scripts (del inglés guión) se refiere a pequeños programas que se usan para tareas sencillas, generalmente cuando queremos automatizar tareas como hacer una copia de respaldo (backup) semanal, o descargar alguna información de una página web cada vez que esta actualice cierta información. A veces también estos scripts se usan como "pegamento" para concatenar programas, generalmente cuando estos programas son complejos o no tenemos acceso al código fuente (o no entendemos el código fuente).
+* **Scripts**: Los *scripts* (del inglés guión) se refieren a pequeños programas que se usan para tareas sencillas, generalmente cuando queremos automatizar tareas como hacer una copia de respaldo (backup) semanal, o descargar alguna información de una página web cada vez que esta actualice cierta información. A veces también estos *scripts* se usan como "pegamento" para concatenar programas, generalmente cuando estos programas son complejos o no tenemos acceso al código fuente (o no entendemos el código fuente).
 
-* **Paquetes o librerías**: Esto es más o menos lo que uno tiene en mente cuando piensa en un programa, como una hoja de cálculo, o una aplicación de para el celular. Es decir, son varios bloques de códigos organizados para realizar diversas tareas. En general, un usuario de *Python* NO escribe librerías, sino que hace uso de ellas. Escribir librerías requiere de ciertos principios de ingeniería de software, de lo contrario el código tendrá altas probabilidades de ser ineficiente, difícil de mantener, propenso a errores, etc.
+* **Paquetes o librerías**: Esto es más o menos lo que uno tiene en mente cuando piensa en un programa, como una hoja de cálculo, o una aplicación para el celular. Es decir, son varios bloques de códigos organizados para realizar diversas tareas. En general, un **usuario** de *Python* NO escribe librerías, sino que hace uso de ellas. Escribir librerías requiere de ciertos principios de ingeniería del software; de lo contrario el código tendrá altas probabilidades de ser ineficiente, difícil de mantener y propenso a errores.
 
 <a href = "#indice">[IR AL ÍNDICE]</a>
 
@@ -109,7 +110,7 @@ El lenguaje *Python* es:
 
 La correcta elección de un libro implica muchos factores, pero es bastante útil de primera mano buscar referencias que nos puedan dar un panorama más claro del autor o título, para así tener la seguridad antes de leer un libro sobre *Python*.
 
-Aquí te presentamos los principales libros sobre el lenguaje, los más destacados a elección de los profesionales del sector.
+Aquí presentamos los principales libros sobre el lenguaje, los más destacados a elección de los profesionales del sector.
 
 <a name = "python-crach-course"></a>
 
@@ -153,11 +154,17 @@ El libro tiene niveles iniciales con temas elementales (como el primer Hola mund
 
 <a name = "python-para-todos"></a>
 
-### 5.6 Python para todos.
+### 5.6 Python para todos. (En documentos/)
 
 [*Python para todos*](documentos/libro_python_para_todos.pdf) se trata de un libro gratuito, que empieza tratando sobre conceptos básicos pero ahonda hasta el uso de bases de datos. Está distribuido bajo una licencia de *Creative Commons* y se puede realizar su descarga en formato PDF directamente desde su misma página web.
 
-Estos fueron algunos títulos únicamente del gran universo bibliográfico que gira en torno a *Python*. Como hemos podido ver, la mayoría de ellos están escritos en inglés, pero inclusive si no tienes el idioma a la perfección muchos de los conceptos son entendibles.
+<a name = "python-in-practice"></a>
+
+### 5.7 Python in practice. (En documentos/)
+
+[*Python in practice*](documentos/libro_python_in_practice.pdf) está dirigido a programadores de *Python* profesionales que deseen ampliar y profundizar sus conocimientos para mejorar la calidad, fiabilidad, velocidad, mantenimiento y usabilidad de sus programas en *Python*. El libro presenta numerosos ejemplos prácticos e ideas para mejorar la programación con *Python*. El libro tiene cuatro temas clave: patrones de diseño para codificar con elegancia, velocidades de procesamiento mejoradas usando concurrencia y Python compilado (Cython), redes de alto nivel y gráficos.
+
+Estos fueron apenas algunos títulos del gran universo bibliográfico que gira en torno a *Python*. Como hemos podido ver, la mayoría de ellos están escritos en inglés, pero inclusive si no tienes el idioma a la perfección muchos de los conceptos son entendibles.
 
 Siéntete en la libertad de usar libros para aprender *Python* cuando desees, porque si bien es cierto que para programar se necesita escribir código a diario, un libro puede ser el aliado perfecto al momento de diagnosticar un error o resolver un bug.
 
