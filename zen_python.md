@@ -57,4 +57,4 @@ Los namespaces (espacio de nombres) son una gran idea — ¡hagamos más de esto
 ```
 `import this` fue originalmente el eslogan de la *Conferencia Internacional de Python #10* (*International Python Conference*, *IPC*, predecedor del ahora *PyCon*).
 
-<a href = "README.md">[IR AL ÍNDICE]</a>
+<a href = "README.md#indice">[IR AL ÍNDICE]</a>
