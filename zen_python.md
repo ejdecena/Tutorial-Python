@@ -35,7 +35,9 @@ Namespaces are one honking great idea -- let's do more of those!
 Cuya traducción es la siguiente:
 
 > Bonito es mejor que feo.
+
 >Explícito es mejor que implícito.
+
 >Simple es mejor que complejo.
 >Complejo es mejor que complicado.
 >Plano es mejor que anidado.
