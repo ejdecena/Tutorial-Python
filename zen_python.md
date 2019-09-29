@@ -34,28 +34,27 @@ Namespaces are one honking great idea -- let's do more of those!
 ```
 Cuya traducción es la siguiente:
 
-> Bonito es mejor que feo.
-
->Explícito es mejor que implícito.
-
->Simple es mejor que complejo.
->Complejo es mejor que complicado.
->Plano es mejor que anidado.
->Disperso es mejor que denso.
->La legibilidad cuenta.
->Los casos especiales no son tan especiales como para romper las reglas.
->Aunque la practicidad vence a la pureza.
->Los errores nunca deberían pasarse por alto.
->A menos que esté explícitamente pasado por alto.
->En caso de ambigüedad, rechaza la tentación de adivinar.
->Tendría que haber un — y preferiblemente únicamente uno — camino obvio para hacerlo.
->Aunque ese camino puede no ser obvio la primera vez, a menos que seas holandés.
->Ahora es mejor que nunca.
->Aunque nunca es, en algunos casos, mejor que ahora mismo.
->Si la implementación es difícil de explicar, es una mala idea.
->Si la implementación es fácil de explicar, puede que sea una buena idea.
->Los namespaces (espacio de nombres) son una gran idea — ¡hagamos más de estos!
-
+```
+Bonito es mejor que feo.
+Explícito es mejor que implícito.
+Simple es mejor que complejo.
+Complejo es mejor que complicado.
+Plano es mejor que anidado.
+Disperso es mejor que denso.
+La legibilidad cuenta.
+Los casos especiales no son tan especiales como para romper las reglas.
+Aunque la practicidad vence a la pureza.
+Los errores nunca deberían pasarse por alto.
+A menos que esté explícitamente pasado por alto.
+En caso de ambigüedad, rechaza la tentación de adivinar.
+Tendría que haber un — y preferiblemente únicamente uno — camino obvio para hacerlo.
+Aunque ese camino puede no ser obvio la primera vez, a menos que seas holandés.
+Ahora es mejor que nunca.
+Aunque nunca es, en algunos casos, mejor que ahora mismo.
+Si la implementación es difícil de explicar, es una mala idea.
+Si la implementación es fácil de explicar, puede que sea una buena idea.
+Los namespaces (espacio de nombres) son una gran idea — ¡hagamos más de estos!
+```
 `import this` fue originalmente el eslogan de la *Conferencia Internacional de Python #10* (*International Python Conference*, *IPC*, predecedor del ahora *PyCon*).
 
 <a href = "https://github.com/ejdecena/tutorial_python">[IR AL ÍNDICE]</a>
