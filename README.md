@@ -36,6 +36,7 @@
     6.2 <a href = "creando_un_entorno_virtual.md">Creando un entorno virtual Python.</a>
     6.3 <a href = "estructura_script_python.md">Estructura de un script en Python.</a>
     6.4 <a href = "guia_estilo_pep8.md">Guía de estilo PEP8.</a>
+    6.5 <a href = "zen_python.md">El Zen de Python.</a>
 7. <a href = "#">Códigos Python.</a>
     7.1 <a href = "codigos/hola_mundo.py">Hola Mundo Python!</a>
 </pre>
@@ -162,7 +163,7 @@ El libro tiene niveles iniciales con temas elementales (como el primer Hola mund
 
 ### 5.7 Python in practice. (En documentos/)
 
-[*Python in practice*](documentos/libro_python_in_practice.pdf) está dirigido a programadores de *Python* profesionales que deseen ampliar y profundizar sus conocimientos para mejorar la calidad, fiabilidad, velocidad, mantenimiento y usabilidad de sus programas en *Python*. El libro presenta numerosos ejemplos prácticos e ideas para mejorar la programación con *Python*. El libro tiene cuatro temas clave: patrones de diseño para codificar con elegancia, velocidades de procesamiento mejoradas usando concurrencia y Python compilado (Cython), redes de alto nivel y gráficos.
+[*Python in practice*](documentos/libro_python_in_practice.pdf) está dirigido a programadores de *Python* profesionales que deseen ampliar y profundizar sus conocimientos para mejorar la calidad, fiabilidad, velocidad, mantenimiento y usabilidad de sus programas en *Python*. El libro presenta numerosos ejemplos prácticos e ideas para mejorar la programación con *Python*. El libro tiene cuatro temas clave: patrones de diseño para codificar con elegancia, velocidades de procesamiento mejoradas usando concurrencia y Python compilado (*Cython*), redes de alto nivel y gráficos.
 
 Estos fueron apenas algunos títulos del gran universo bibliográfico que gira en torno a *Python*. Como hemos podido ver, la mayoría de ellos están escritos en inglés, pero inclusive si no tienes el idioma a la perfección muchos de los conceptos son entendibles.
 

@@ -19,8 +19,8 @@ La **línea 1** se conoce como *shebang*, se reconoce al iniciar con los caracte
 
 Entre los ejemplos de *shebang* tenemos:
 
-* `#!/usr/bin/python3` -> Usar el ejecutable *Python* localizado en `/usr/bin`
-* `#!/usr/bin/env python3` -> Usa `env` para buscar la variable de entorno "python3" en el PATH para ejecutar el script con ese programa.
+* `#!/usr/bin/python3`: usa el ejecutable *Python* localizado en `/usr/bin`
+* `#!/usr/bin/env python3`: usa `env` para buscar la variable de entorno "python3" en el PATH para ejecutar el script con ese programa.
 
 Los sistemas operativos *Windows* no tienen soporte nativo para *shebang*. En cambio, usan la *extensión* del archivo para asociarlo al ejecutable de turno. Por lo tanto, la línea de *shebang* sería completamente ignorada en el caso de los sistemas Windows.
 
