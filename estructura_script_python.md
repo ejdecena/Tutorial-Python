@@ -36,6 +36,6 @@ Es decir, si tienes un archivo llamado `mi_modulo.py`, si lo ejecutamos como pro
 
 En resúmen, básicamente lo que haces usando `if __name__ == "__main__":` es ver si el módulo ha sido importado o no. Si no se ha importado (se ha ejecutado como programa principal) ejecuta el código dentro del condicional.
 
-Una de las razones para hacerlo es que, a veces, se escribe un módulo (un archivo .py) que se puede ejecutar directamente, pero que alternativamente, también se puede importar y reutilizar sus funciones, clases, métodos, etc. en otro módulo. Con esto conseguimos que la ejecución sea diferente al ejecutar el módulo directamente que al importarlo desde otro programa.
+Una de las razones para hacerlo es que, a veces, se escribe un módulo (un archivo *.py*) que se puede ejecutar directamente, pero que alternativamente, también se puede importar y reutilizar sus funciones, clases, métodos, etc. en otro módulo. Con esto conseguimos que la ejecución sea diferente al ejecutar el módulo directamente que al importarlo desde otro programa.
 
 <a href = "https://github.com/ejdecena/tutorial_python">[IR AL ÍNDICE]</a>

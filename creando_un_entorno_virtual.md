@@ -19,7 +19,7 @@ $ sudo pip3 install virtualenv
 
 Para crear el entorno virtual debes dirigirte a la carpeta donde lo deseas crear. Se crea con el comando `virtualenv` seguido del nombre que le quieras poner, como lo indica el siguiente ejemplo:
 ```bash
-$ virtualenv nombre_de_tu_entorno -p python3
+$ virtualenv nombre_de_tu_entorno -p python3 --no-site-packages
 ```
 Esto creará una nueva carpeta dentro del directorio que hayamos escogido, allí se instalarán todos los paquetes que desees utilizar.
 
