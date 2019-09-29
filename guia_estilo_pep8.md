@@ -10,7 +10,7 @@ Algunas las principales convenciones de estilo para escribir código *Python* so
 
 * Usar 4 espacios para indentar.
 * Es posible usar solo tabulaciones u ocho espacios para código antiguo que haya sido escrito así. Por ningún motivo se han de mezclar espacios y tabulaciones.
-* Limitar los tamaños de línea a 79 caracteres como máximo, si bien se puede continuar líneas largas con el símbolo '\', es recomendable el uso de paréntesis.
+* Limitar los tamaños de línea a 79 caracteres como máximo, si bien se puede continuar líneas largas con el símbolo `\`, es recomendable el uso de paréntesis.
 * Se deben separ las funciones de nivel superior y las clases con dos líneas en blanco, mientras que los métodos dentro de clases los podemos separar con una sola línea. También se pueden usar líneas en blanco dentro de las funciones para separ bloques que guardan cierta correlación lógica.
 * Las sentencias de `import` deben estar generalmente separadas una en cada línea.
 * Las sentencias import deben de estar siempre en la parte superior del archivo agrupadas de la siguiente manera:
