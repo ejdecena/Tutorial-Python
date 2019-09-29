@@ -8,7 +8,7 @@
 
 ## 6.1.1 Instalación.
 
-*Pip* no viene instalado con *Python*, por tanto para instalarlo. En un sistema operativo *Linux*, con paquetería *apt* (*Debian*, *Ubuntu*, *Linux Mint*, etc), debemos abrir una terminal (`Ctrl + Alt + T`) y ejecutar:
+*Pip* no viene instalado con *Python*, por lo tanto hay que instalarlo. En un sistema operativo *Linux*, con paquetería *apt* (*Debian*, *Ubuntu*, *Linux Mint*, etc), debemos abrir una terminal (`Ctrl + Alt + T`) y ejecutar:
 ```bash
 $ sudo apt-get install python3-pip
 ```
@@ -22,7 +22,7 @@ $ pip install -U pip
 
 ## 6.1.3 Administrar paquetes Python.
 
-Ahora veremos el uso básico más común de *Pip*. Para ver la lista de todos los comandos posibles con *Pip* y sus opciones más generales, solo tenemos que ejecutar:
+Para ver la lista de todos los comandos posibles con *Pip* y sus opciones más generales, solo tenemos que ejecutar:
 ```bash
 $ pip
 ```
@@ -34,14 +34,14 @@ $ pip [comando] --help
 
 ## 6.1.4 Buscar paquetes.
 
-Para buscar un determinado paquete en el PyPI, simplemente intruducimos una cadena de búsqueda en la siguiente instrucción en una terminal: 
+Para buscar un determinado paquete en el *PyPI*, simplemente intruducimos una cadena de búsqueda en la siguiente instrucción en una terminal: 
 ```bash
 $ pip search [cadena de búsqueda]
 ```
 
 ## 6.1.5 Información de paquetes.
 
-Una vez localizado un paquete con la instrucción `pip search`, podemos solicitar a *Pip* que nos muestre información adicional del paquete ejecutando la siguiente instrucción desde la terminal: 
+Una vez localizado un paquete con la instrucción `pip search`, podemos solicitar a *Pip* que nos muestre información adicional del paquete ejecutando la siguiente instrucción desde la terminal:
 ```bash
 $ pip show [paquete]
 ```
@@ -55,7 +55,7 @@ $ pip install [paquete]
 
 ## 6.1.7 Descargar paquete.
 
-Para descargar un paquete con todas las dependencias pero SIN instalarlo, ejecutamos desde la terminal:
+Para **descargar** un paquete con todas las dependencias pero **sin instalarlo**, ejecutamos desde la terminal:
 ```bash
 $ pip download [paquete]
 ```
