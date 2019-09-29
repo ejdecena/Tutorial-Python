@@ -15,17 +15,17 @@
 
 ## Índice de contenido.
 
-* [**Python y el Cálculo Científico. Instalación.**](python_instalacion.md)
-* [**Modos de ejecución y carecterísticas.**](modos_caracteristicas.md)
-* [**Libros de aprendizaje.**](libros_aprendizaje.md)
+* [Python y el Cálculo Científico. Instalación.](python_instalacion.md)
+* [Modos de ejecución y carecterísticas.](modos_caracteristicas.md)
+* [Libros de aprendizaje.](libros_aprendizaje.md)
 * **Trucos y consejos:**
-    * [**Instalador de Paquetes Pip.**](instalador_paquetes_pip.md)
-    * [**Creando un entorno virtual Python.**](creando_un_entorno_virtual.md)
-    * [**Estructura de un script en Python.**](estructura_script_python.md)
-    * [**Guía de estilo PEP8.**](guia_estilo_pep8.md)
-    * [**El Zen de Python.**](zen_python.md)
-* **Códigos fuente:**
-    * [**Hola Mundo Python!**](codigos/hola_mundo.py)
+    * [Instalador de Paquetes Pip.](instalador_paquetes_pip.md)
+    * [Creando un entorno virtual Python.](creando_un_entorno_virtual.md)
+    * [Estructura de un script en Python.](estructura_script_python.md)
+    * [Guía de estilo PEP8.](guia_estilo_pep8.md)
+    * [El Zen de Python.](zen_python.md)
+* Códigos fuente:
+    * [Hola Mundo Python!](codigos/hola_mundo.py)
 
 ## Contribuciones.
 
