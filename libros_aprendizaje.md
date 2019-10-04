@@ -46,6 +46,10 @@ El libro tiene niveles iniciales con temas elementales (como el primer Hola mund
 
 [*Python para todos*](documentos/libro_python_para_todos.pdf) se trata de un libro gratuito, que empieza tratando sobre conceptos básicos pero ahonda hasta el uso de bases de datos. Está distribuido bajo una licencia de *Creative Commons* y se puede realizar su descarga en formato PDF directamente desde su misma página web.
 
+## Python Tricks: the book. (En documentos)
+
+[*Python Tricks: the book*](documentos/libro_python_tricks_the_book.pdf) es un buen libro que te permitirá descubrir las mejores prácticas de programación en *Python*, además de facilitarte escribir código estético y pitónico, con ejemplos sencillos y una narrativa paso a paso. Estarás un paso más cerca de dominar *Python*, para que puedas escribir un código hermoso e idiomático que te aborde de forma natural.
+
 ## Python in practice. (En documentos/)
 
 [*Python in practice*](documentos/libro_python_in_practice.pdf) está dirigido a programadores de *Python* profesionales que deseen ampliar y profundizar sus conocimientos para mejorar la calidad, fiabilidad, velocidad, mantenimiento y usabilidad de sus programas en *Python*. El libro presenta numerosos ejemplos prácticos e ideas para mejorar la programación con *Python*. El libro tiene cuatro temas clave: patrones de diseño para codificar con elegancia, velocidades de procesamiento mejoradas usando concurrencia y Python compilado (*Cython*), redes de alto nivel y gráficos.
