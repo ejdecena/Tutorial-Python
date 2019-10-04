@@ -19,7 +19,7 @@
 1. [Python y el Cálculo Científico. Instalación.](python_instalacion.md#cabecera)
 1. [Modos de uso y características.](modos_caracteristicas.md#cabecera)
 1. [Libros de aprendizaje.](libros_aprendizaje.md#cabecera)
-1. Libros recomendados:
+1. **Libros recomendados:**
     1. [*Python para todos.*](documentos/libro_python_para_todos.pdf)
     1. [*Python Tricks: the book.*](documentos/libro_python_tricks_the_book.pdf)
     1. [*Python in Practice.*](documentos/libro_python_in_practice.pdf)

@@ -42,17 +42,17 @@ El libro tiene niveles iniciales con temas elementales (como el primer Hola mund
 
 [*Python Cookbook*](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377) es uno de los libros más amenos para el aprendizaje de *Python*. Se puede encontrar las indicaciones para el desarrollo de programas a manera de recetas. Hay una serie de temas interesantes para desarrolladores experimentados y novatos que se pueden explorar. Entre ellos están los algoritmos y estructuras de datos, las cadenas de texto y números, los tipos de operadores, las clases y objetos, la programación web y los principales errores en el desarrollo de un programa.
 
-## Python para todos. (En documentos/)
+## Python para todos. (En /documentos)
 
 [*Python para todos*](documentos/libro_python_para_todos.pdf) se trata de un libro gratuito, que empieza tratando sobre conceptos básicos pero ahonda hasta el uso de bases de datos. Está distribuido bajo una licencia de *Creative Commons* y se puede realizar su descarga en formato PDF directamente desde su misma página web.
 
-## Python Tricks: the book. (En documentos)
+## Python Tricks: the book. (En /documentos)
 
 [*Python Tricks: the book*](documentos/libro_python_tricks_the_book.pdf) es un buen libro que te permitirá descubrir las mejores prácticas de programación en *Python*, además de facilitarte escribir código estético y pitónico, con ejemplos sencillos y una narrativa paso a paso. Estarás un paso más cerca de dominar *Python*, para que puedas escribir un código hermoso e idiomático que te aborde de forma natural.
 
-## Python in practice. (En documentos/)
+## Python in practice. (En /documentos)
 
-[*Python in practice*](documentos/libro_python_in_practice.pdf) está dirigido a programadores de *Python* profesionales que deseen ampliar y profundizar sus conocimientos para mejorar la calidad, fiabilidad, velocidad, mantenimiento y usabilidad de sus programas en *Python*. El libro presenta numerosos ejemplos prácticos e ideas para mejorar la programación con *Python*. El libro tiene cuatro temas clave: patrones de diseño para codificar con elegancia, velocidades de procesamiento mejoradas usando concurrencia y Python compilado (*Cython*), redes de alto nivel y gráficos.
+[*Python in practice*](documentos/libro_python_in_practice.pdf) está dirigido a programadores de *Python* profesionales que deseen ampliar y profundizar sus conocimientos para mejorar la calidad, fiabilidad, velocidad, mantenimiento y usabilidad de sus programas en *Python*. El libro presenta numerosos ejemplos prácticos e ideas para mejorar la programación con *Python*. El libro tiene cuatro temas clave: patrones de diseño para codificar con elegancia, velocidades de procesamiento mejoradas usando concurrencia y *Python* compilado (*Cython*), redes de alto nivel y gráficos.
 
 Estos fueron apenas algunos títulos del gran universo bibliográfico que gira en torno a *Python*. Como hemos podido ver, la mayoría de ellos están escritos en inglés, pero inclusive si no tienes el idioma a la perfección muchos de los conceptos son entendibles.
 
