@@ -23,6 +23,10 @@
     1. [*Python para todos.*](documentos/libro_python_para_todos.pdf)
     1. [*Python Tricks: the book.*](documentos/libro_python_tricks_the_book.pdf)
     1. [*Python in Practice.*](documentos/libro_python_in_practice.pdf)
+1. **Enlaces recomendados:**
+    1. [*Python Course.*](https://www.python-course.eu/)
+    1. [*Python Cheatsheet.*](https://www.pythonsheets.com/)
+    1. [*Structuring Your Project.*](https://docs.python-guide.org/writing/structure/)
 1. **Trucos y consejos:**
     1. [Instalador de Paquetes Pip.](instalador_paquetes_pip.md#cabecera)
     1. [Creando un entorno virtual *Python*.](creando_un_entorno_virtual.md#cabecera)
