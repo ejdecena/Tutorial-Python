@@ -24,6 +24,7 @@
     1. [*Python Tricks: the book.*](documentos/libro_python_tricks_the_book.pdf)
     1. [*Python in Practice.*](documentos/libro_python_in_practice.pdf)
 1. **Enlaces recomendados:**
+    1. [*El módulo Python 3 de la semana.*](https://rico-schmidt.name/pymotw-3/)
     1. [*Python Course.*](https://www.python-course.eu/)
     1. [*Python Cheatsheet.*](https://www.pythonsheets.com/)
     1. [*Structuring Your Project.*](https://docs.python-guide.org/writing/structure/)
