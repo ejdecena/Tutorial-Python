@@ -29,6 +29,7 @@
     1. [*Python Course.*](https://www.python-course.eu/)
     1. [*Python Cheatsheet.*](https://www.pythonsheets.com/)
     1. [*Structuring Your Project.*](https://docs.python-guide.org/writing/structure/)
+    1. [*Refactoring and Design Patterns.*](https://refactoring.guru/)
 1. **Trucos y consejos:**
     1. [Instalador de Paquetes Pip.](instalador_paquetes_pip.md#cabecera)
     1. [Creando un entorno virtual *Python*.](creando_un_entorno_virtual.md#cabecera)
@@ -49,4 +50,4 @@ Este repositorio es de *código abierto*; lo que significa que cualquier persona
 * Mejores explicaciones. 
 * Correcciones de errores conceptuales.
 
-La forma de contribuir es vía la interfaz web de *GitHub*, mediante peticiones de [*Pull requests*](https://github.com/ejdecena/tutorial_python/pulls), o reportando los problemas/bugs del repositorio por [*Issues*](https://github.com/ejdecena/tutorial_python/issues).
+La forma de contribuir es vía la interfaz web de *GitHub*, mediante peticiones de [*Pull requests*](https://github.com/ejdecena/Tutorial-Python/pulls), o reportando los problemas/bugs del repositorio por [*Issues*](https://github.com/ejdecena/Tutorial-Python/issues).
