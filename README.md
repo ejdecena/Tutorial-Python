@@ -27,11 +27,12 @@
 1. **Enlaces recomendados:**
     1. [*El módulo Python 3 de la semana.*](https://rico-schmidt.name/pymotw-3/)
     1. [*Python Course.*](https://www.python-course.eu/)
+    1. [*Google Python Style Guide.*](http://google.github.io/styleguide/pyguide.html)
     1. [*Python Cheatsheet.*](https://www.pythonsheets.com/)
     1. [*Structuring Your Project.*](https://docs.python-guide.org/writing/structure/)
     1. [*Refactoring and Design Patterns.*](https://refactoring.guru/)
 1. **Trucos y consejos:**
-    1. [Instalador de Paquetes Pip.](instalador_paquetes_pip.md#cabecera)
+    1. [Instalador de Paquetes `pip`.](instalador_paquetes_pip.md#cabecera)
     1. [Creando un entorno virtual *Python*.](creando_un_entorno_virtual.md#cabecera)
     1. [Estructura de un script en *Python*.](estructura_script_python.md#cabecera)
     1. [Guía de estilo PEP8.](guia_estilo_pep8.md#cabecera)
