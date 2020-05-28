@@ -25,6 +25,7 @@
     1. [*Learning Python Design Patterns.*](documentos/libro_learning_python_design_patterns.pdf)
     1. [*High Performance Python.*](documentos/libro_high_performance_python.pdf)
 1. **Enlaces recomendados:**
+    1. [*Python Para Impacientes.*](https://python-para-impacientes.blogspot.com/p/indice.html)
     1. [*El módulo Python 3 de la semana.*](https://rico-schmidt.name/pymotw-3/)
     1. [*Python Course.*](https://www.python-course.eu/)
     1. [*Google Python Style Guide.*](http://google.github.io/styleguide/pyguide.html)
